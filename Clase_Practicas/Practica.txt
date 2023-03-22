@@ -2,11 +2,11 @@ Una farmacia nos solicita crear una base de datos para guardar su informacion re
 
 1- Crear la tabla "medicamentos" con la siguiente estructura:
 CREATE TABLE "medicamentos" (
-	"medicamento"	INTEGER NOT NULL UNIQUE,
-	"nombre"	TEXT NOT NULL,
+	"medicamento"	INTEGER NOT null UNIQUE,
+	"nombre"	TEXT NOT null,
 	"laboratorio"	TEXT,
 	"precio"	REAL,
-	"cantidad"	INTEGER NOT NULL,
+	"cantidad"	INTEGER NOT null,
 	PRIMARY KEY("medicamento" AUTOINCREMENT)
 );
 
@@ -18,9 +18,9 @@ INSERT INTO medicamentos (nombre, laboratorio, precio, cantidad) VALUES
 ('Omeprazol', 'AstraZeneca', 2.5, 60),
 ('Loratadina', 'Genérico', 1.0, 120),
 ('Aspirina', 'null', 1.0, 80),
-('Simvastatina', 'Merck', 'NULL', 30),
-('Enalapril', 'Novartis', 4.0, 'NULL'),
-('Piroxicam', 'Genérico', 'NULL', 'NULL'),
+('Simvastatina', 'Merck', 'null', 30),
+('Enalapril', 'Novartis', 4.0, 'null'),
+('Piroxicam', 'Genérico', 'null', 'null'),
 ('Acetazolamida', 'Bayer', 5.0, 25),
 ('Dexametasona', 'Pfizer', 4.5, 45),
 ('Metoclopramida', 'Genérico', 2.5, 90),
@@ -28,10 +28,10 @@ INSERT INTO medicamentos (nombre, laboratorio, precio, cantidad) VALUES
 ('Fenofibrato', 'Abbott', 4.0, 55),
 ('Ciprofloxacino', 'Bayer', 3.5, 65),
 ('Metformina', 'Merck', 2.0, 85),
-('Ketorolaco', 'null', 2.5, 'NULL'),
-('Losartán', 'MSD', 'NULL', 40),
-('Cefalexina', 'Genérico', 3.5, 'NULL'),
-('Levofloxacino', 'Janssen', 'NULL', 20),
+('Ketorolaco', 'null', 2.5, 'null'),
+('Losartán', 'MSD', 'null', 40),
+('Cefalexina', 'Genérico', 3.5, 'null'),
+('Levofloxacino', 'Janssen', 'null', 20),
 ('Caladryl','','',200),
 ('Tafirol','null',140,200),
 ('Agua Oxigenada','',120,200),
