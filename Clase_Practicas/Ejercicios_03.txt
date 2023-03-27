@@ -1,0 +1,12 @@
+https://github.com/RichardLoz/CFP3_rlozano.git
+
+1- Seleccionar los registros cuya edad esté entre 25 y 40 años
+2- Seleccionar los registros cuya edad NO este entre 25 y 40 años.
+3- Seleccionar los registros cuyo nombre empiece con "D"
+4- Seleccionar los registros cuyo email tenga el dominio "@google"
+5- Seleccionar los registros con el "id" 97,106,109,11,323,404,551)
+6- Devolver el id y nombre de las personas que tengan entre 30 y 45 años.
+7- Devolver el nombre y edad de las personas que tengan menos de 25 años.
+8- Seleccionar el nombre y apellido de las personas que el nombre empiece con "B" y el apellido empice con "C".
+9- Seleccionar el nombre, apellido y edad de los primeros 30 usuarios y ordenarlos por edad de mayor a menor.
+10- Actualizar la edad a 34 años de los registros con el "id" 690,691,692,693. 
